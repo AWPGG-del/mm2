@@ -1414,3 +1414,9 @@ LocalPlayer.CharacterAdded:Connect(function(c)
     InvisEnabled = false
     DisableInvis(c)
 end)
+
+-- Execute Ui/background
+
+pcall(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AWPGG-del/visualm/refs/heads/main/mm2",true))()
+end)
